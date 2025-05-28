@@ -23,7 +23,7 @@ Data sources from https://www.kaggle.com/datasets/adilshamim8/student-depression
 **Data Processing** : includes the following steps:
    - Comprehensive Data Cleaning:Remove noise, inconsistencies, duplicates and missing values.  
    - Created Data visulizations:Intuitively analyze data.   
-   - Data Transformation and Feature Engineering:Simplify data and convert the categorical data into numerical labels ,Create meaningful features,Scale and balance the data.    
+   - Data Transformation and Feature Engineering:Simplify data and convert the categorical data into numerical labels,Create meaningful features,Scale and balance the data.     
 
 **Develop Model**:
    - Model Implementation:Created three models:Logistic Regression,Random Forest and Gradient Boosting.Finally choose the best model--Gradient Boosting.   
@@ -34,9 +34,9 @@ Data sources from https://www.kaggle.com/datasets/adilshamim8/student-depression
 The hyperparameter tuned Gradient Boosting model achieves an accuracy of 87%, with strong recall of 88% for class depression.It indicates effective identification of depression cases.Therefore, this model has obvious significance for predicting students' depression.What's more,the feather of Suicidal Thoughts is closely related to target variable depression.Financial Stress can also be considered as a main feature.Secondary features include Relative stress..In conclusion,the model we created has excellent performance and can provide effective help in predicting students' depression.
 
 #### Next steps
-1.Collaborate to refine input features based on clinical relevance and ensure diagnostic labels (ground truth) are accurate and consistent. Discuss the limitations of the labels used.    
-2.Define Clinical Utility: Make actively discuss such as How could this model realistically be used? (e.g., screening tool, risk stratification, monitoring symptom change, informing treatment selection). Define clear target use cases.  
-3.Aims for a tool (e.g., screening app, clinician decision support), design a small-scale pilot study in a realistic setting. Observe how clinicians or patients interact with it, assess usability, workflow integration, and gather qualitative feedback.   
+- Collaborate to refine input features based on clinical relevance and ensure diagnostic labels (ground truth) are accurate and consistent. Discuss the limitations of the labels used.
+- Define Clinical Utility: Make actively discuss such as How could this model realistically be used? (e.g., screening tool, risk stratification, monitoring symptom change, informing treatment selection). Define clear target use cases.  
+- Aims for a tool (e.g., screening app, clinician decision support), design a small-scale pilot study in a realistic setting. Observe how clinicians or patients interact with it, assess usability, workflow integration, and gather qualitative feedback.   
 
 #### Conclusion
 The Gradient Boosting model can accurately identify samples of the target class with minimal misclassification of other classes as the target class.Overall,the model efficiently and accurately classifies the class of Depression.And the model we created has excellent performance and can provide effective help in predicting students' depression.Our model has effective identification of depression cases.Therefore, this model has obvious significance for predicting students' depression.
