@@ -15,8 +15,8 @@ Is it possible to build a machine learning model to accurately predict and judge
 
 ### Data Sources
 Data sources from https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset. This dataset compiles a wide range of information aimed at understanding, analyzing, and predicting depression levels among students. It is designed for research in psychology, data science, and education, providing insights into factors that contribute to student mental health challenges.This dataset collects a large amount of data from currently highly concerned populations with depression tendencies.A total of 27901 rows of data, each representing a student, bear information for 18 columns.
-- Numerical Feathers: id, Gender, Age, Academic Pressure, Work Pressure, CGPA, Study Satisfaction, Job Satisfaction, Work/Study Hours, Financial Stress.
-- Categorical Feathers: City, Profession, Sleep Duration, Dietary Habits, Degree, Have you ever had suicidal thoughts ?, Family History of Mental Illness.  
+- Numerical Features: id, Gender, Age, Academic Pressure, Work Pressure, CGPA, Study Satisfaction, Job Satisfaction, Work/Study Hours, Financial Stress.
+- Categorical Features: City, Profession, Sleep Duration, Dietary Habits, Degree, Have you ever had suicidal thoughts ?, Family History of Mental Illness.  
 - **Target Variable**: Depression: Binary (1:Yes,0:No)- Class label.
 
 ### Methodology
@@ -31,7 +31,7 @@ Data sources from https://www.kaggle.com/datasets/adilshamim8/student-depression
    - Model Evaluation:Use confusion matrix,ROC curve and PR curve.   
 
 ### Results
-The hyperparameter tuned Gradient Boosting model achieves an accuracy of 87%, with strong recall of 88% for class depression.It indicates effective identification of depression cases.Therefore, this model has obvious significance for predicting students' depression.What's more,the feather of Suicidal Thoughts is closely related to target variable depression.Financial Stress can also be considered as a main feature.Secondary features include Relative stress..In conclusion,the model we created has excellent performance and can provide effective help in predicting students' depression.
+The hyperparameter tuned Gradient Boosting model achieves an accuracy of 87%, with strong recall of 88% for class depression.It indicates effective identification of depression cases.Therefore, this model has obvious significance for predicting students' depression.What's more,the feature of Suicidal Thoughts is closely related to target variable depression.Financial Stress can also be considered as a main feature.Secondary features include Relative stress.In conclusion,the model we created has excellent performance and can provide effective help in predicting students' depression.
 
 ### Next steps
 - Collaborate to refine input features based on clinical relevance and ensure diagnostic labels (ground truth) are accurate and consistent. Discuss the limitations of the labels used.
