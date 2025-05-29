@@ -1,5 +1,5 @@
 ## CS422 Data mining Project   
-**Depression Integrative Analysis and Prediction for Students**  
+### **Depression Integrative Analysis and Prediction for Students**  
 
 **Chengxuan Ku**  
 
