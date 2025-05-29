@@ -1,8 +1,8 @@
 ### CS422 Data mining Project   
 **Depression Integrative Analysis and Prediction for Students**  
 
-**Author**
-Chengxuan Ku  
+**Chengxuan Ku**  
+
 
 #### Abstract  
 Depression among university students is a growing public health concern, with significant impacts on academic performance and physical and mental health.And many students face stress from studies, social life, and daily habits. This project predicts if a student might be depressed using their personal, academic, and lifestyle data.Through developping the machine learning model  on the dataset,our prediction of depression in students has made effective progress.I think in the future, machine learning models can be used to analyze and improve the overall student depression trends in society.With the end of the project,I think in the future, machine learning models can be used to analyze and improve the overall student depression trends in society.  
@@ -20,7 +20,7 @@ Data sources from https://www.kaggle.com/datasets/adilshamim8/student-depression
 - **Target Variable**: Depression: Binary (1:Yes,0:No)- Class label.
 
 #### Methodology
-**Data Processing** : includes the following steps:
+**Data Processing** :   
    - Comprehensive Data Cleaning:Remove noise, inconsistencies, duplicates and missing values.  
    - Created Data visulizations:Intuitively analyze data.   
    - Data Transformation and Feature Engineering:Simplify data and convert the categorical data into numerical labels,Create meaningful features,Scale and balance the data.     
